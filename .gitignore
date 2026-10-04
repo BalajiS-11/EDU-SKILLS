@@ -1,0 +1,31 @@
+﻿# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Python
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*.class
+.pytest_cache/
+*/.pytest_cache/
+venv/
+.venv/
+env/
+
+# Build outputs
+dist/
+frontend/dist/
+
+# Large archive files
+root_cause.zip
+*.zip
+*.tar.gz
+
+# Environment & Local settings
+.env
+.env.*.local
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

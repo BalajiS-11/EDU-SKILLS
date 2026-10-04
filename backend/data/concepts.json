@@ -1,0 +1,237 @@
+[
+  {
+    "concept_id": "c01",
+    "name": "Real Numbers & Number Systems",
+    "module": "Foundations",
+    "difficulty": 0.2,
+    "prerequisites": []
+  },
+  {
+    "concept_id": "c02",
+    "name": "Algebraic Expressions & Terms",
+    "module": "Foundations",
+    "difficulty": 0.25,
+    "prerequisites": [
+      "c01"
+    ]
+  },
+  {
+    "concept_id": "c03",
+    "name": "Linear Equations in One Variable",
+    "module": "Linear Relations",
+    "difficulty": 0.3,
+    "prerequisites": [
+      "c01"
+    ]
+  },
+  {
+    "concept_id": "c04",
+    "name": "Exponents & Radicals",
+    "module": "Foundations",
+    "difficulty": 0.35,
+    "prerequisites": [
+      "c01"
+    ]
+  },
+  {
+    "concept_id": "c05",
+    "name": "Linear Inequalities in One Variable",
+    "module": "Linear Relations",
+    "difficulty": 0.4,
+    "prerequisites": [
+      "c03"
+    ]
+  },
+  {
+    "concept_id": "c06",
+    "name": "Coordinate Plane & Cartesian Geometry",
+    "module": "Geometry & Graphs",
+    "difficulty": 0.3,
+    "prerequisites": [
+      "c01"
+    ]
+  },
+  {
+    "concept_id": "c07",
+    "name": "Slope & Rates of Change",
+    "module": "Linear Relations",
+    "difficulty": 0.45,
+    "prerequisites": [
+      "c03",
+      "c06"
+    ]
+  },
+  {
+    "concept_id": "c08",
+    "name": "Linear Equations in Two Variables",
+    "module": "Linear Relations",
+    "difficulty": 0.5,
+    "prerequisites": [
+      "c03",
+      "c07"
+    ]
+  },
+  {
+    "concept_id": "c09",
+    "name": "Graphing Linear Equations",
+    "module": "Geometry & Graphs",
+    "difficulty": 0.45,
+    "prerequisites": [
+      "c06",
+      "c08"
+    ]
+  },
+  {
+    "concept_id": "c10",
+    "name": "Systems of Linear Equations",
+    "module": "Linear Relations",
+    "difficulty": 0.6,
+    "prerequisites": [
+      "c08",
+      "c09"
+    ]
+  },
+  {
+    "concept_id": "c11",
+    "name": "Polynomial Arithmetic",
+    "module": "Polynomials",
+    "difficulty": 0.4,
+    "prerequisites": [
+      "c02",
+      "c04"
+    ]
+  },
+  {
+    "concept_id": "c12",
+    "name": "Factoring by Common Monomials",
+    "module": "Polynomials",
+    "difficulty": 0.45,
+    "prerequisites": [
+      "c02"
+    ]
+  },
+  {
+    "concept_id": "c13",
+    "name": "Factoring Trinomials & Special Products",
+    "module": "Polynomials",
+    "difficulty": 0.6,
+    "prerequisites": [
+      "c11",
+      "c12"
+    ]
+  },
+  {
+    "concept_id": "c14",
+    "name": "Introduction to Quadratic Equations",
+    "module": "Quadratic Systems",
+    "difficulty": 0.55,
+    "prerequisites": [
+      "c08",
+      "c13"
+    ]
+  },
+  {
+    "concept_id": "c15",
+    "name": "Solving Quadratics by Factoring",
+    "module": "Quadratic Systems",
+    "difficulty": 0.65,
+    "prerequisites": [
+      "c13",
+      "c14"
+    ]
+  },
+  {
+    "concept_id": "c16",
+    "name": "Completing the Square Method",
+    "module": "Quadratic Systems",
+    "difficulty": 0.75,
+    "prerequisites": [
+      "c14"
+    ]
+  },
+  {
+    "concept_id": "c17",
+    "name": "The Quadratic Formula & Derivation",
+    "module": "Quadratic Systems",
+    "difficulty": 0.7,
+    "prerequisites": [
+      "c16"
+    ]
+  },
+  {
+    "concept_id": "c18",
+    "name": "Discriminant & Nature of Roots",
+    "module": "Quadratic Systems",
+    "difficulty": 0.65,
+    "prerequisites": [
+      "c17"
+    ]
+  },
+  {
+    "concept_id": "c19",
+    "name": "Parabola Vertex & Axis of Symmetry",
+    "module": "Geometry & Graphs",
+    "difficulty": 0.7,
+    "prerequisites": [
+      "c09",
+      "c16"
+    ]
+  },
+  {
+    "concept_id": "c20",
+    "name": "Simplifying Rational Expressions",
+    "module": "Polynomials",
+    "difficulty": 0.7,
+    "prerequisites": [
+      "c13"
+    ]
+  },
+  {
+    "concept_id": "c21",
+    "name": "Arithmetic Progressions: Intro & Pattern",
+    "module": "Sequences & Series",
+    "difficulty": 0.35,
+    "prerequisites": [
+      "c03"
+    ]
+  },
+  {
+    "concept_id": "c22",
+    "name": "General n-th Term of an AP",
+    "module": "Sequences & Series",
+    "difficulty": 0.5,
+    "prerequisites": [
+      "c21"
+    ]
+  },
+  {
+    "concept_id": "c23",
+    "name": "Sum of First n Terms of an AP",
+    "module": "Sequences & Series",
+    "difficulty": 0.6,
+    "prerequisites": [
+      "c22"
+    ]
+  },
+  {
+    "concept_id": "c24",
+    "name": "Systems of Linear Inequalities",
+    "module": "Linear Relations",
+    "difficulty": 0.65,
+    "prerequisites": [
+      "c05",
+      "c10"
+    ]
+  },
+  {
+    "concept_id": "c25",
+    "name": "Applied Real-World Algebraic Modeling",
+    "module": "Applications",
+    "difficulty": 0.8,
+    "prerequisites": [
+      "c10",
+      "c15",
+      "c23"
+    ]
+  }
+]

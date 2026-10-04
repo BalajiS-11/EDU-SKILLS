@@ -1,0 +1,15 @@
+﻿version: '3.8'
+
+services:
+  eduskill:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: eduskill_app
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+    volumes:
+      - ./backend/rootcause.db:/app/backend/rootcause.db
+    restart: unless-stopped
